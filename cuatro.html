@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cootrasana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <img src="./img/icono.jpeg" alt="logo">
+                    </div>
+                    <div class="logo-text">
+                        <h1>Cootrasana</h1>
+                        <span>Transporte seguro y confiable</span>
+                    </div>
+                </a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#fleet">Flota</a></li>
+                    <li><a href="#why-us">Por Qué Nosotros</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+                <div class="header-actions">
+                    <a href="tel:+1234567890" class="phone-number">
+                        <i class="fas fa-phone-alt"></i>
+                        chat bot +45678
+                    </a>
+                    <a href="#contact" class="quote-btn">Solicitar Taxi</a>
+                    <div class="menu-toggle" id="menuToggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cooperativa de Transportadores de San Antonio Ltda.</h1>
+                <p>Desde 1966 conectando destinos con seguridad, puntualidad y confort. Más de 60 años de experiencia en
+                    transporte de larga distancia y turismo.</p>
+                <a href="#contact" class="quote-btn"
+                    style="background-color: var(--secondary); padding: 15px 40px; font-size: 1.1rem;">
+                    <i class="fas fa-calendar-alt"></i>
+                    taxi ahora 
+                </a>
+
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">60+</div>
+                        <div class="stat-text">Años de Experiencia</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">200+</div>
+                        <div class="stat-text">Buses </div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">500K+</div>
+                        <div class="stat-text">Pasajeros Satisfechos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-text">Destinos intermunicipales</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Quienes somos?</h2>
+            <p class="section-subtitle">Ofrecemos soluciones de transporte adaptadas a las necesidades de nuestros
+                clientes, garantizando seguridad y confort en cada viaje.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Mision</h3>
+                        <p>consolidarse como una empresa líder en el sector del transporte público y especial,
+                        evolucionando hacia la movilidad sostenible con vehículos eléctricos y optimización tecnológica de rutas. Su objetivo es
+                        ofrecer viajes seguros, cómodos y eficientes, actuando como un motor de desarrollo social y calidad de servicio.</p>
+                        <a href="#" class="service-link">
+                            mision <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>vision </h3>
+                        <p>brindar servicios de transporte público de pasajeros seguros, eficientes y confiables, conectando a San Antonio de Prado
+                        con Medellín y municipios cercanos. Con más de 6 décadas de operación, la cooperativa se compromete con la movilidad, el
+                        desarrollo regional y la atención oportuna de rutas.</p>
+                        <a href="#" class="service-link">
+                            vision <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Turismo y Excursiones</h3>
+                        <p>Paquetes turísticos completo, recorridos por los destinos más
+                            atractivos del país.</p>
+                        <a href="#" class="service-link">
+                            Ver <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="fleet" id="fleet">
+        <div class="container">
+            <h2 class="section-title">Empresas aliadas</h2>
+            <p class="section-subtitle">Contamos alianzas con empresas líderes en transporte, una de las flotas más modernas y seguras del país, equipada con la
+                última tecnología para su comodidad.</p>
+
+            <div class="fleet-grid">
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <img src="./img/tensa.png" alt="">
+                    </div>
+                    <div class="fleet-content">
+                        <h3>TEMSA</h3>
+                        <p>Asientos reclinables, WiFi, enchufes USB y servicio a bordo. Ideal para viajes de larga
+                            distancia.</p>
+                        <ul class="fleet-features">
+                            <li><i class="fas fa-check"></i> Capacidad: 40 pasajeros</li>
+                            <li><i class="fas fa-check"></i> Aire acondicionado</li>
+                            <li><i class="fas fa-check"></i> Baño a bordo</li>
+                            <li><i class="fas fa-check"></i> Entretenimiento individual</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <i class="fas fa-bus-alt"></i>
+                    </div>
+                    <div class="fleet-content">
+                        <h3>SoloBus</h3>
+                        <p>Ventanas panorámicas, asientos premium y espacio para equipaje. Diseñado para experiencias
+                            turísticas.</p>
+                        <ul class="fleet-features">
+                            <li><i class="fas fa-check"></i> Capacidad: 30 pasajeros</li>
+                            <li><i class="fas fa-check"></i> Ventanas panorámicas</li>
+                            <li><i class="fas fa-check"></i> Guía turístico incluido</li>
+                            <li><i class="fas fa-check"></i> Sistema de audio grupal</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <i class="fas fa-shuttle-van"></i>
+                    </div>
+                    <div class="fleet-content">
+                        <h3>Rapido santa maria</h3>
+                        <p>Perfecto para grupos pequeños. Comodidad y privacidad para reuniones empresariales o
+                            familiares.</p>
+                        <ul class="fleet-features">
+                            <li><i class="fas fa-check"></i> Capacidad: 15-20 pasajeros</li>
+                            <li><i class="fas fa-check"></i> Mesa de reuniones</li>
+                            <li><i class="fas fa-check"></i> Refrigerador</li>
+                            <li><i class="fas fa-check"></i> Pantalla multimedia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us" id="why-us">
+        <div class="container">
+            <h2 class="section-title" style="color: white;">¿Por Qué Elegir VerdeBus?</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.9);">Nuestro compromiso con la excelencia nos
+                ha posicionado como líderes en el sector de transporte.</p>
+
+            <div class="why-us-content">
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguridad Garantizada</h3>
+                    <p>Todos nuestros conductores son certificados y los buses cuentan con los más altos estándares de
+                        seguridad.</p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Puntualidad</h3>
+                    <p>Más del 98% de nuestros servicios llegan a tiempo. Tu tiempo es valioso y nosotros lo respetamos.
+                    </p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Atención Personalizada</h3>
+                    <p>Nuestro equipo está disponible 24/7 para atender tus necesidades y resolver cualquier
+                        inconveniente.</p>
+                </div>
+
+                <div class="why-us-item">
+                    <div class="why-us-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Compromiso Ambiental</h3>
+                    <p>Flota ecológica con bajas emisiones. Contribuimos activamente a la sostenibilidad del planeta.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Contáctenos</h2>
+                    <p>¿Listo para planificar tu próximo viaje? Nuestro equipo está disponible para ayudarte a organizar
+                        el transporte perfecto para tus necesidades.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Dirección</h4>
+                                <p>Av. Transporte 1234, Ciudad Verde</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>+1 234 567 890</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@verdebus.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Solicitar Cotización</h3>
+                    <form id="quoteForm">
+                        <div class="form-group">
+                            <label for="name">Nombre Completo</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Teléfono</label>
+                            <input type="tel" id="phone" class="form-control" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Tipo de Servicio</label>
+                            <select id="service" class="form-control" required>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="interurban">Transporte Interurbano</option>
+                                <option value="groups">Transporte de Grupos</option>
+                                <option value="tourism">Turismo y Excursiones</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" class="form-control" rows="4"
+                                placeholder="Detalles de su viaje: fecha, pasajeros, destino, etc."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <i class="fas fa-bus"></i>
+                        <h2>VerdeBus</h2>
+                    </div>
+                    <p>Líderes en transporte de pasajeros desde 1995. Conectamos personas y destinos con seguridad,
+                        confort y responsabilidad ambiental.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#services">Servicios</a></li>
+                        <li><a href="#fleet">Flota</a></li>
+                        <li><a href="#why-us">Por Qué Nosotros</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#">Transporte Interurbano</a></li>
+                        <li><a href="#">Transporte de Grupos</a></li>
+                        <li><a href="#">Turismo y Excursiones</a></li>
+                        <li><a href="#">Transporte Empresarial</a></li>
+                        <li><a href="#">Transporte Escolar</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Aviso Legal</a></li>
+                        <li><a href="#">Política de Cookies</a></li>
+                        <li><a href="#">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2023 VerdeBus Transporte S.A. Todos los derechos reservados. | Diseñado con <i
+                        class="fas fa-heart" style="color: #ff9800;"></i> para viajes inolvidables</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle del menú móvil
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.innerHTML = navLinks.classList.contains('active')
+                ? '<i class="fas fa-times"></i>'
+                : '<i class="fas fa-bars"></i>';
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                menuToggle.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+
+        // Form submission
+        const quoteForm = document.getElementById('quoteForm');
+        quoteForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Obtener valores del formulario
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const service = document.getElementById('service').value;
+
+            // Simular envío del formulario
+            alert(`¡Gracias ${name}! Hemos recibido tu solicitud para ${service}. Te contactaremos en ${email} en las próximas 24 horas.`);
+
+            // Resetear formulario
+            quoteForm.reset();
+        });
+
+        // Smooth scrolling para enlaces internos
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Animación al hacer scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observar elementos para animación
+        document.querySelectorAll('.service-card, .fleet-card, .why-us-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.5s, transform 0.5s';
+            observer.observe(el);
+        });
+
+        // Contador animado en hero
+        const statNumbers = document.querySelectorAll('.stat-number');
+        statNumbers.forEach(stat => {
+            const target = parseInt(stat.textContent);
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                stat.textContent = Math.floor(current) + (stat.textContent.includes('+') ? '+' : '');
+            }, 50);
+        });
+    </script>
+</body>
+
+</html>
